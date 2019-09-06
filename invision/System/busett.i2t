@@ -1,0 +1,23 @@
+cls
+@echo ******************************************************
+@echo ***                                                ***
+@echo ***           BACKING UP SETTINGS NOW!             ***
+@echo ***                                                ***
+@echo ***                 PLEASE WAIT!                   ***
+@echo ***                                                ***
+@echo ***       TIME WILL VARY DEPENDING ON HOW          ***
+@echo ***        MANY NETWORKS ARE STORED  AND           ***
+@echo ***       MACHINE SPEED. 20 sec to 120 sec         ***
+@echo ***                is not uncommon                 ***
+@echo ***                                                ***
+@echo ******************************************************
+@pkzipc -add -rec -path=relative -speed -silent i2settest.zip C:\progra~1\mirc\invision\settings\*.*  
+cls
+@echo ******************************************************
+@echo ***                                                ***
+@echo ***           BACKUP IS NOW COMPLETE!              ***
+@echo ***                                                ***
+@echo ***                PRESS ANY KEY!                  ***
+@echo ***                                                ***
+@echo ******************************************************
+@PAUSE

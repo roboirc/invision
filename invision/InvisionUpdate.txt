@@ -1,0 +1,1177 @@
+January 01, 2019
+
+Invision 3.5.2.1 (January '19)
+==============================
+
+Here's another update by Riamus and XMog, with fixes and improvements from #Invision on irc.irchighway.net.
+Happy New Year!
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m
+
+Additions :
+
+- Log Viewer (right-click, View Logs) can optionally load all logs associated with a channel if they are split in mIRC by day/week/month.
+  This option can be enabled in the Invision menu, Main Settings, Additional Settings tab.  The setting will only be visible if mIRC is set to split log files by date.
+
+Fixes :
+
+- Query right-click - Fixed displaying "Drive Info", displaying CPU, removed duplicate "Advertise Invision" in menu.
+- Fixed viewing certain logs with extra periods in the filename, e.g. #Test.123.log.
+- Additional minor fixes, e.g. typos, form overlaps, code cleanup.
+
+Changes :
+
+- Swapped CPU Usage/RAM Usage order in query right-click menu
+
+
+
+October 31, 2017
+
+Invision 3.5.1 (October '17)
+==================================
+
+Here's another update by Riamus and XMog, with fixes and improvements 
+from the Invision forums and #Invision on irc.irchighway.net.
+Happy Halloween, again!
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m
+
+Additions :
+
+- Option to send !seen results as channel messages rather than noticing (/notice) the user for exact matches.  The option is located in Invision menu > Main Settings > Adv. tab.  Multiple results will always be noticed to the user, regardless of this setting.  Disabled by default.
+- Added option to use the NickServ "recover" command rather than "ghost" for IRC servers that support it.  Also rearranged the NickServ Auto-Respond section, and added Active Help for items there.
+- Added option to include CPU load when displaying System Info (option located in Invision > Personalization > Info tab).  This adds a slight freeze prior to displaying System Info, which is why it was made optional.  Disabled by default.
+- The option to stop "Slow Paste from Clipboard" is now available for queries as well.
+
+Fixes :
+
+- !seen was not properly limiting notices when there were too many results.
+- If Maintain Nick is enabled but no nick is specified, Invision will no longer try to change the nick.  This fixes the "Invalid nickname: n/a" error a few users experienced.
+- Rewrote "Block All Color Codes FROM Channel" to work as intended/expected, rather than blocking color codes from all channels on the network.
+- VisuFix now follows custom nick colors from mIRC's Address Book when displaying lines.
+- Other minor fixes, including (but not limited to) dialog formatting and grammar.
+
+Changes :
+
+- Displaying Drive Info to a channel now splits up the line when more than 3 drives exist.
+- Reordered tabs in Personalization.
+- RAM usage display now rounds to the nearest whole number instead of including fractions.
+- Some code cleanup.
+
+Removed :
+
+- Removed support for BlackIce (discontinued in 2008).
+
+
+
+January 01, 2016
+
+Invision 3.5.0 (January '16)
+============================
+
+Yet another update pack put together by Riamus and XMog, with fixes and 
+improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m, xXBERTOXx
+
+Additions :
+
+- When using "Slow paste from clipboard," added option to stop the current paste
+- Added support for Win8/8.1/10 and future versions
+  NOTE: Windows 10 will display as Win8.1 when being CTCP VERSIONed until mIRC updates their $os identifier
+
+
+Bug Fixes :
+
+- Fixed incoming !seen text being hidden in the channel if too many results would be returned
+- Minor spelling fixes and script errors
+
+
+Changes :
+
+- Removed stdio.dll and calls to it (pinging, 411 -> DNS)
+- Changed Lagometer to "Lag Meter" in certain areas for consistency
+- When trying to display IM/website/email information via Right-Click > Display in Channel and no information is entered in Personalization, present an informative error to the user rather than send "N/A" to the channel
+- Slightly changed wording of Display in Channel > RAM Usage
+- Changed CPU/RAM display in System Info, swapped CPU Usage/RAM Usage order in right-click menu, swapped Storage and Display lines in System Info
+- Netsplit quits will now be included in !seen results (not a retroactive change)
+- When playing mp3s, the "Comment" line will no longer be displayed in the status window if there is no comment in the mp3's tag
+- Replaced "MSN" (discontinued) IM contact with "Skype"
+
+
+
+October 31, 2014
+
+Invision 3.4.2 (October '14)
+============================
+
+This is another update pack put together by Riamus and XMog, with fixes and 
+improvements from the Invision forums and #Invision on irc.irchighway.net.
+Happy Halloween!
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m
+
+Bug Fixes :
+
+- Adjusted recursions, which caused an issue loading (limited to mIRC 7.33 and 7.34).
+- Fixed uptime section in System Info being inaccurate in certain circumstances.
+- Fixed freezing experienced by some users when disconnecting from a server on mIRC 7.30 or newer.
+
+
+Changes :
+
+- Added delays when displaying "Drive Info" and "Bandwidth and DCCs" to prevent flooding.
+- Reversed Download/Upload records when displaying DCC Records.
+- Prefer ID3v2 tags (which provide Unicode support) in more situations when playing mp3s.
+- Added "Don't Show This Again" checkbox to the warning about running two instances of Invision.
+- Removed code that would display "./ IDENTIFY" in the editbox when not auto-identifying.
+- Other minor fixes and code cleanup.
+
+
+
+July 07, 2014
+
+Invision 3.4.1 (July '14)
+=========================
+
+This is a hotfix release created by XMog, designed to improve compatibility with mIRC 7.33 and mIRC 7.34.
+
+Beta Testers : DJ_Arnaud67, Darkrea|m
+
+Bug Fixes :
+
+Compatibility fixes for mIRC 7.33 and mIRC 7.34.
+
+Known Issues :
+
+The disconnect sound effect is currently disabled in this release to stop a freezing issue that can happen on certain systems when combined with mIRC 7.30 or newer.
+
+
+
+January 01, 2014
+
+Invision 3.4 (January '14)
+==========================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m
+
+New Features :
+
+Added support for displaying service packs in system info for Windows 8.
+Added the ability to view your own !seen data by right clicking in a channel and choose !Seen Info and entering the nick you want to check.  The results will be shown locally.
+Added the ability on servers with halfop support to deop someone and halfop them in a single command if you are an op (similar to the Deop and Voice command).
+
+
+Bug Fixes :
+
+Fixed a bug with Fserve Explorer that caused some files to appear as folders.
+Fixed a bug in Social Outbursts causing the outbursts not to read the custom outbursts for the first outburst category.
+Fixed some quote mismatches.
+Fixed some typos.
+Fixed double timestamp problem in logs.
+Fixed bug when trying to kick/ban a user and his/her clones from the popups menu.
+Fixed a bug when displaying !Seen results for someone quitting without a quit message.  Also improved the formatting of various !seen responses to be more consistent.
+Fixed a bug causing chanserv, nickserv, and memoserv commands to fail in certain cases.
+Fixed the width of the text on a setting so it doesn't overflow the dialog.
+Fixed a bug in the backup and restore settings option and in the import wizard relating to using pkzip.
+Fixed Play Selected mp3 function in query right-click menu.
+
+Changes :
+
+Updated Fserve Explorer to handle the new UPP / Obsidian2 fileserver formats.
+Changed the failed decryption error message if decryption failed due to the encryption being done on too old of mIRC or Invision so that it includes the $nick who encrypted it.
+Changed the support link in an error message to point to the support channel rather than email.
+Updated the Telnet and ANSI Telnet connection dialogs to insert the last telnet address so you can reconnect to the same server without having to type it in each time.
+Changed the nick completer so it will not be used if there isn't text after the colon.  This allows you to type something like a drive letter, such as D: without it being converted into the name of someone in the channel starting with that letter.
+Updated the show active server connections, show gets/sends, and show system info so they have a 1 second delay between lines to prevent flooding.
+Updated the nick regain error message when unable to regain a nick so that it will only display the error once a minute to reduce error message spam.
+Changed the /say and /me aliases so they will not use colors if the channel doesn't allow colors (-c channel mode).  This will affect many messages sent to the channel, but not all.
+Updated a few graphics to better support larger screen resolutions.
+Other minor fixes/changes.
+
+
+November 11, 2011
+
+Invision 3.3 Build (November '11)
+=================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m
+
+New Features :
+
+Added a new ANSI Telnet feature (Invision menu > Invision Tools > ANSI Telnet).  The original Telnet feature is still available in case there are any issues that come up with the ANSI Telnet version.  That also allows you to compare the two to see what the differences are.  The ANSI telnet provides near-perfect ANSI graphics and Telnet experience.  You can change the text size by right clicking in the telnet window.  Note that it won't change what's currently displayed.  Try it out on any of the free Telnet BBS's out there and give us your feedback on the forum.
+Added a CPU Usage Bar display.
+Added a note in Sound Manager stating that sounds must be enabled in mIRC options to avoid confusion.
+Added support for kicking/banning someone on your Shitlist if you are a Halfop or higher instead of if you are an Op or higher.
+Added a separate Display in Channel/Query menu item for displaying Accrued IRC Time rather than only being able to display that while displaying server connections.
+Added an optional Date/Time display on the toolbar.  You can click either date or time to change the format to suit your needs.
+Added a Search Logs option to the right click menu in channel, query, and status windows.  As it states in the search dialog, be careful about searching every log file at once because it may take awhile and you could be disconnected.  Use wildcards to search for a smaller number of log files or specify the exact log file you want.
+Added a new encryption method to replace the two old encryption methods that no longer work since mIRC changed to Unicode.  Although the encryption is done differently, it works the same on your end.  Set a key and share it with anyone who you want to be able to decode your messages.  Then send text using /e <some text> or /' <some text>.  As long as their key matches yours and they have decrypt enabled, they will be able to read what you say, but others will not.  Be aware, however, that you will not be able to decrypt text from anyone using Invision older than 3.3 or mIRC older than 7.x and they won't be able to decrypt your text either.  For questions or comments, please use the forum.
+
+
+Bug Fixes :
+
+Fixed a bug when typing certain combinations of text with colors at the beginning of a line.
+Changed nick tags so that they always show the correct capitalization.
+Fixed the beep that was happening when receiving a query.  If you want that beep, you can enable it from mIRC options.
+Fixed some typos and grammatical errors.
+Fixed the MP3 button display so the pause button is fully visible.
+Fixed the Log Viewer to correctly identify the location of the log files.
+Fixed the Lag Time titlebar display so it doesn't flicker all networks' lags during each update.
+Fixed the display of "Nick is using a secure connection (SSL)" text when the Channel Scan is enabled so that it shows in the correct channel rather than the active window.
+Fixed the User Lists Manager so that changing a Mask to be invalid will not cause the User to be removed from the list.  Instead, it will attempt to automatically fix the mask and show an error message so that you can update it.  Note that it is unlikely to correctly fix your mask for you.  If you receive the error, you should fix the mask yourself.
+Fixed decryption of encrypted text.
+Fixed the MP3 In Play display so it shows the correct song length for VBR songs.
+Fixed the time remaining display under the MP3 buttons so it shows the correct time remaining for VBR songs.
+Fixed the RAM and Hard Drive Bars so they display correctly when you have a black or white background enabled in your color settings.
+Kicks performed while in Stealth Mode no longer display an empty set of () at the end of the kick message.
+Fixed Play Selected MP3 so it opens the correct path each time.
+
+
+Changes :
+
+Removed the option to automatically download mIRC during installation.  This option ended up getting the installer flagged by certain Antivirus software as being a "downloader" trojan.  Although it's a nice feature to have, it's not worth dealing with Antivirus software incorrectly identifying it over and over.  If you don't already have mIRC installed, you will need to download it yourself.
+Changed the OS display to include Service Packs for Windows 7.
+Changed the Bar displays so the bar can be seen better when displayed without control codes.
+Changed the Visufix Active Help to explain the difference between Visufix and mIRC's built-in method for changing colors that match the background.
+Changed the default mIRC option for Minimize DCC Sends from Disabled to Enabled.  You can change it back, by right clicking a nick and choosing DCC > Send, uncheck Minimize, and send them something.
+Changed the default mIRC option for Enable Flood Control from Disabled to Enabled.  You can change it back from Alt-O > IRC > Flood.
+Changed /say and /me (and any commands that use those in the script) to not use control/color codes if the channel uses +c mode.  This is in addition to how it previously blocked those if you choose to block codes from the channel's right click menu.  This lets you chat in those channels without a problem.
+Removed the forced closing of DCC Sends by the script.  You can still enable this option through mIRC's options in Alt-O > DCC > Options.
+Changed the !seen response when the person's was last seen quitting IRC.  It now has []'s around the quit message.
+Made some improvements to Invision's original Telnet.  It now supports basic color and has a few other improvements.
+Added a 30 second delay when connecting to a server before your Fserv Ad gets displayed (if your Fserv is enabled) to prevent being flooded off for displaying your ad too soon after connecting.
+Changed the ad for "Advertise what I'm listening to" so that it shows only the song Length rather than also showing current position because the current position will always be 0 (or close).  Normal display of MP3 In Play will show the progress bar/time.
+Changed the DCC Speed Window so that it is now built into the menubar to make it a cleaner display.
+Changed the Nick Alert tooltip so it will not display if the nick alert is in your Active window.
+Removed the two old encryption methods that no longer work since mIRC changed to Unicode.  They are replaced with a new method that works much better (see in the New Features section above).
+Improved variable cleanup.
+Adjusted the width of the local and remote file displays in the Fileserver Explorer window so that they are equally sized.
+Changed the local display of the FServer Explorer so it displaying file sizes in kB/MB/GB instead of just bytes.
+
+
+July 30, 2010
+
+Invision 3.2 Build (July '10)
+=============================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m, BluJ
+
+New Features :
+
+* Invision now has its own installer rather than just a self extracting RAR.  It will allow you to update or do a full install and will even download mIRC for you (don't block internet access).
+* Added a new Text Trick to the Display in Channel/Query right click menus - Upside Down Text.  This will display text upside down (and reversed).  It does not support control codes or various symbols.
+
+Bug Fixes :
+
+* Fixed a lot of overlapping of fields in the dialogs.
+* Fixed some typos in active help.
+* Fixed an active help message that was too long, causing only part of it to appear.
+* Fixed the F1 display so it doesn't cut off the last line.
+* Fixed the display for F4 (Visufix toggle) to fix a spacing error.
+* Fixed /if: insufficient parameters (line 87, ialias2.mrc) bug in Op All Friends.
+* Fixed bug with ScriptGuard's Immune Scripts not being immune if the script filename is over 8 characters in length.
+* Fixed a /cnick bug when trying to use certain dialogs without having a nick set up in mIRC's options.
+
+
+Changes :
+
+* Invision now fully supports Unicode and is designed for mIRC 7 or higher.  If you want to use older versions of mIRC, you will need to use Invision 3.1.3 instead.
+* The default font for Invision has been changed to Arial Unicode MS instead of Verdana.  This is so that unicode support is there.  Verdana doesn't display all unicode characters correctly.  Note that Calibri size 11 is really close to Verdana size 10 if you want something similar to Verdana.  We didn't use this as the default font because anyone using a Windows OS released before 2005 won't have that font installed.
+* Small change to Acromancer to remove unused code.
+* Changed it so that the mp3 buttons can automatically move all the way left if you shrink your window down really far instead of only part of the way.
+* Changed the default setting for opening URLs.  By default, it will use your browser's setting as far as new window or tab rather than attempting to force it to open in a new window.
+* Adjusted the F1 bar so it doesn't have a space at the end.
+* Changed some wording in the Main Settings dialog. 
+
+
+May 31, 2010
+
+Invision 3.1.3 Build (May '10)
+================================
+
+This build was put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Safemode, Darkrea|m, Yusuke
+
+New Features :
+
+* Added an option to enable/disable !List for XDCC servers.  The default is enabled.
+* Right clicking on a nick and choosing Kick/Ban will now use the Default Ban Type setting (Main Settings > Additional Settings) just like automatic bans do.
+
+Bug Fixes :
+
+* Fixed a bug causing the Invision logo from someone running mIRC 7 or higher to appear messed up in the QUIT message.
+* Fixed a bug when trying to build the fserv index on Windows 7.
+* Fixed a bug with the File Server when CTCP only triggers is checked that can cause users to be told they are banned.
+* Fixed the duplicate logo display when doing a script corruption check.
+* Fixed a bug related to having spaces in the path to Invision.  We still recommend not having spaces in the path.
+* Fixed XDCC's !List from showing up in channels that are not being served in.
+* Fixed a bug in how the nick list colors are set up.
+* Fixed a bug allowing the # of downloads in the XDCC ads to be set to a non-numerical value.
+* Fixed !list nick so it doesn't display an ad for disabled fservs.
+* Fixed a bug caused by trying to start your XDCC server multiple times that caused the list to appear multiple times in a row about 30 seconds later.
+* Fixed a bug in the Server Controls menu that could show the Stop option(s) even when the server is stopped.
+* Fixed a bug in the XDCC Manager's Full Pack List, where the type would appear twice and you'd see the color codes listed.
+* Fixed a bug in the XDCC Manager that could prevent packs from being added correctly.
+* Fixed a bug that could affect the RAM displays for certain users with over 2GB RAM.
+* Fixed some spelling errors.
+
+Changes :
+
+* Made a change to the display of the hard drive usage bar so it is like the other bars.
+* Changed how the auto-identify works so that it will also work on most non-English servers.
+* Changed the XDCC Server Ads to automatically replace a description of None (the default description) with the filename.
+* Changed the XDCC List filename that is sent from /ctcp yournick XDCC List (when !list is enabled) from XDCCList.txt to XDCCList-yournick-dateupdated.txt (e.g. XDCCList-MyNick-043010.txt).  This will not only prevent people overwriting lists from other people when getting your list, but also allows them to see when you last updated your files (through XDCC Manager).
+* Changed the wording and display in the Server Controls menu so it looks the same for all server types.
+* The Display Ad option in Server Controls (previously called Say for some server types) has been changed to only appear in the menu while the server is on.  This is not true for FTP, Announcer, and Request types as those either aren't servers or are not servers from within Invision.
+* In some systems, Windows may show that you are using all of your RAM when Invision displays RAM usage.  When this happens, changed it to show ?? and -- rather than claiming that you are using 100% of your RAM.
+* Changed the XDCC pack setup so that if you hit cancel when choosing a file, it will not remove a file that's already there (replacing it with None).
+* Changed how the log folder is opened when choosing to View Logs so that it can prevent possibly opening the wrong folder.
+* Changed the Record DCC Speeds display to match other bandwidth formats.
+
+
+March 12, 2010
+
+Invision 3.1.2 Build (March '10)
+================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Safemode, BluJ, Darkrea|m
+
+New Features :
+
+* Added additional IM clients to the Personalization > Info dialog so you have more choice than just ICQ.  You will then be able to display all of your IM info from Display in Channel/Private > Your IM Info. It will only display the clients that you enter info for.
+* Added a custom error message when trying to Slow Paste when there isn't anything copied to the clipboard so you don't get a /play error message.
+* Added an option in DCC Manager > Setup to show red and green dots (fail and success) in the DCC_Info window, making it easier to quickly see how often your sends/receives are failing.  This is on by default in a new install, but will be off if you just upgrade.
+* Added an option in Main Settings > Additional Settings to include a date stamp in the DCC_Info window whenever you send or receive something on a date that hasn't yet had anything sent or received.  The date stamp is configurable.  It will be on by default.
+* Added active help for a section of Main Settings > ADV that was missing active help.
+* Added an option to display your record DCC upload and download speeds from the normal Display in Channel/Private menu.
+* Added an option in Main Settings > ADV to display a speed monitor window at the top/right of your mIRC window that shows current upload and download speeds and the overall DCC bandwidth.
+* Added a Display in Channel and Display Private option to show a RAM Usage Bar (similar to the Hard Drive Usage Bar) so you can display RAM Usage without having to display the entire System Info.
+* Added an option to Main Settings > Additional Settings allowing you to disable the automatic conversion of # to the current channel name.
+* Added an option in Main Settings > Additional Settings allowing you to include an "Open File" or "Open Location" hotlink on all Successfully Received lines in @DCC_Info.  This will allow you to double click the "link" to open either the file or the location of the file that you have downloaded.
+
+Bug Fixes :
+
+* Fixed some more typos.
+* Fixed nick color on Successfully Received messages to match the display of all other DCC send/receive messages.
+* Fixed nick color on Show Sends and Show Gets to match the display of other send/receive messages.
+* Fixed the CPU display in System Info for certain CPUs.
+* Fixed the Logo Theme preview option to correctly preview the logo when theme colors are enabled without having to click OK or Apply first.
+* Fixed the FTP Ad Manager so that it is possible to delete the Note (MOTD).
+* Fixed the bandwidth in use showed from DCC Manager so that it displays the right bandwidth when a send or get is complete or failed, but the DCC window isn't closed.
+* Fixed the color when sending a reply to /ctcp finger.
+
+Changes :
+
+* Changed the Show in Channel/Private > Bandwidth and DCC's total bandwidth used line to be easier to read.
+* Changed the Show in Channel/Private > Bandwidth and DCC's output so it includes file size and amount already downloaded.
+* Lowered how long a line can be before it is split when using Slow Paste and splitting long lines so that it is less likely to get some characters cut off on certain networks.
+* Changed Op/Deop/Voice/Devoice/Halfop/DeHalfop options in Nick List's right click menu to say "selected nicks" if more than one nick is selected rather than just the first nick to avoid confusion over whether or not you can do multiple nicks at once.
+* Changed how memory is calculated in System Info so that it will properly display memory on systems with over 4GB RAM. The changes only affect users with over 2GB RAM.
+* Minor change to time display on MP3's in play when the graphical display is turned off.
+* Changed the auto-join for Home Channels so it has a short delay before joining the channels to allow extra time for any nick registration to take place before attempting to join the channel(s).  It's still not a long delay, so if the registration response is really lagging, you may still join before you are registered, but I think it's set to a decent delay without being too long for those without need of it.
+* Changed the wording when displaying Gets or Sends.
+* Changed the Gets and Sends displays to show if they are Completed, Failed, or Active.
+* Changed the version reply slightly.
+* Changed all Display in Channel/Private messages so they use the same formatting.
+* Added a detailed error message when manually displaying a server ad or if someone tries to connect to your server when you don't have an IP address set up in Local Info.  This will replace the "/goto duplicate end" error message that doesn't really tell you what the problem is.
+* Removed some unnecessary files.
+* Chagned the Block XDCC Ads setting so it blocks more types of XDCC ads.
+* Changed the color formatting of the "is attempting to send you" message.
+
+
+June XX, 2009
+
+Invision 3.1.1 Build (June '09)
+==============================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Safemode
+
+New Features :
+
+* Added an automatic display of total hard drive space when displaying System Info so you don't have to manually set it in Personalization > Info.  If you've previously set it up, change it to n/a to let Invision display it automatically.
+* Added OS System display support for Windows 7.
+* Added an option in Main Settings > Additional Settings, that will allow you to hide the display of clones in the JOIN messages.
+* Added an option to select a color theme for the Invision logo text in Main Settings > Colors.
+* Added an option to display more Verbose "mp3 in Play" ads.  The new verbose setting is located in the mp3 Server dialog.  This is a per-network setting.  Verbose ads allow support of Unicode titles, artists, etc.
+* Added an option to display either the original graphical progress meter or else a new text display of progress (e.g. 01:15/03:45 format).  The setting is located in the mp3 Server dialog.  This is a per-network setting.  Note that any information in the Verbose display that has no information (such as no album tag information on the file) will not show.  Only information available will show up and if no Title tag is available, the filename will show (same as it does without Verbose ads).
+
+Bug Fixes :
+
+* Fixed duplicate code issue in iunique.mrc file.
+* Fixed some typos and grammatical errors found throughout the script (including many in Active Help).
+* Fixed a bug causing the first part of a Given Host that is found in the /whois response on certain networks to be missing.
+* Fixed a bug causing the wrong nick to sometimes be displayed when using the Nick Completer (Nick: message) when more than one nick that are similar are in a channel, such as Nick and Nick|away.
+* Fixed * /if: '!=$' unknown operator (line 153, ialias2.mrc) bug when using mass CTCP listing.
+* Fixed a bug preventing Clear All from the Auto Greet list from working.
+* Fixed a bug with /msg history revive that prevented the first line from a person who had not spoken to you before from being shown.
+* Fixed an error in certain default MOTD messages causing them to read 2.0 instead of the real version number when first installed.  Note that changes to default settings do NOT change your current settings, so you'll have to manually update your own MOTD messages if they are incorrect or else reinstall Invision to get them set correctly.
+* Fixed a bug when double clicking on /msg triggers in the @Serve_Ads window (with Capture Text/Notice Ads enabled) so that it sends the trigger as a message to the user rather than sending it to the channel.
+* Fixed a security hole in auto-op/auto-voice.
+* Fixed an issue where FTP ad information could not be removed.
+* Fixed a bug in the logo coloring preventing it from being changed when having it match the primary color.
+* Fixed a bug that can cause the wrong user information to display in the User List Manager if you add someone with only an IP available instead of a host mask.
+* Fixed * /dcc: invalid parameters (line 1163, ialias1.mrc) bug when dragging a file into a channel.
+
+Changes :
+
+* Changed memory display in System Info to allow you to manually set how it displays from Personalization > Info, just like you can with other system properties.
+* Changed how server notices display so they display in the right place when you're not capturing them to an isolated window.
+* Changed how the Nick Completer works so that the colors/format should always show regardless of IAL being up to date as long as you have the full nick entered... Nick: will always have the color/format, but Ni: may or may not depending on if the nick is in the IAL.
+* Changed ad capture parsing so that certain OmenServe ads will be captured when Capture Notice Ads or Capture Text Ads are enabled in Main Settings.
+* Changed various buttons in the User List Manager so that they bring the User List Manager back into focus after using them.
+* Changed the Add New button in the User List Manager so it doesn't cause problems if you don't enter a nick or host.
+* Changed AutoGreet Messages so they save immediately after making changes so that the changes aren't lost if you exit right after making them.	
+* Silenced the AutoGreet Clear All message that says the saved file of autogreet messages is removed.  There is still a standard Invision message telling you that the command was completed.
+* Changed logo coloring so it's Per Network like everything else so that it is the right color if you have different colors on different networks.
+* Changed OS, CPU, and Graphics displays so that (R), (C), and (TM) show up as the actual symbols: ®, ©, ™
+* Changed System Info output so that it uses "x" instead of "by" in the monitor resolution.
+* Changed the mp3 button time display so that it only changes from time remaining to time elapsed (counting down to counting up) when a song is playing when you click the time displayed.  Previously, it would change anytime you clicked there and would result in the way the time is displayed changing when you don't want it to.
+* Changed the Now Playing display so it uses the new Verbose ad method of getting information to allow for better display of what's playing.  This is the local display usually shown in the status window unless you have it set to show in active.
+
+
+December 25, 2008
+
+Invision 3.1 Build (December '08)
+=================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67, Darkrea|m, Safemode
+
+New Features :
+
+* Added a View Logs right click menu item in the Status window that will bring up all logs for that network.  Note that it will bring up *all* logs if you don't use either the "Include Network" option or the "Make Folder" (by network) option in mIRC's logging options.  Those are the only ways that Invision knows what network the logs are from.
+* Added a dialog that allows you to edit/add/remove Social Outbursts.  Control codes are supported.  Note that you will continue to use the original outburst files until you open the dialog and hit ok/apply.  After that, you'll use the new outburst files that are generated.  For questions about this, please ask in the forum.  Social Outbursts from Invision menu.
+* Added support for displaying Social Outbursts in a query window.  You can display them either in a Query window or from right clicking on a nick.
+* Added support for automatically connecting to specified networks/servers when starting Invision.  Main Settings > Additional Settings.
+* Added an additional option to the "Show in all Common Channels" option for notices.  When you select this option, you can now check an option to send all notices from people who aren't in a common channel to your Status window.  Unchecked, it will work as it previously did and send them to your active window.  This lets you choose to prevent Service notices and global notices from going to the active window.  Note that if you use a service command, such as /nickserv and this option is enabled, it will go to the status window instead of the active window, so choose the method that works best for you.
+* Added a "Reload all Invision Files" menu option under the Invision menu > Invision Tools.  If your script files are ever unloaded, rather than manually loading them or reinstalling, all you need is to have the System\Remotes\iunique.mrc file loaded and then this new menu item will load all of the rest of your Invision files.  *You may need to restart Invision afterwards.*  Note that if you don't have an Invision menu, you will want to reinstall instead.
+* Added the Invision Logo display to the Hard Drive Usage Bar (hidden when running in stealth mode).
+* Added active help text for the background color options in Main Settings > Colors.
+
+Bug Fixes :
+
+* Fixed a potential security bug in /msg history revive.
+* Fixed bug in Version reply.
+* Changed the Invision "Use" counter to hopefully make it accurate.
+* Fixed a bug in the Log Viewer when opened from the right click menu in a Query, where it wouldn't open the viewer if the nick included certain characters, such as | or \.
+* Fixed the OS display so that "Windows" isn't displayed twice in certain situations.
+* Fixed a typo in active help.
+* Fixed a bug causing quit messages that use background colors to incorrectly leave the background color on when displaying the number of people remaining after quitting.
+* Fixed a bug causing you to try to identify twice to nickserv.
+* Fixed an issue where connecting too quickly may prevent automatically identifying with NickServ.
+* Fixed a bug when handling the closing of special windows, such as logviewer, Fserve.Chat, etc.
+* Fixed a bug when adding a channel to auto-join from the right click menu if the channel topic had a comma in it causing Invision to think there was a password.
+* Fixed a bug that could prevent record uptimes from saving regularly.  They will now always be saved no more than 15 min from the actual record.
+* Fixed a bug preventing the default encryption key in Main Settings from being set if you enter something too small and then choose Yes when asked if you want to use the default key.
+* Fixed a bug causing double error messages when typing /me and hitting enter without any text.
+* Fixed a bug causing an error message when "Use 2 line Ad" is checked for fserv and the MOTD is blank.
+* Fixed a parentheses bug in the kick message when people are kicked with WordWatch.  Also changed spacing slightly in all kick messages.
+
+Changes :
+
+* Changed View Chan Log and the View Log for queries to check mIRC's settings and automatically open the network folder if you have mIRC set up to separate logs by network.
+* Changed the OS displays to show the Service Packs in Vista.
+* Changed WordWatch to allow kicking and banning if you are a halfop.  Previously, you had to be an op or higher.
+* Changed the mp3 button display so that it will be on the right side of mIRC even with widescreen resolutions.
+* Adjusted the hover area for "Logo Color matches Secondary Color" so that it's easier to see the active help for that option.
+* Moved the "View Log" menu item in Query windows to the top to match where it's located in the channel window.
+* Included mIRC 6.35.
+* Changed /msg history revive so that the current text isn't duplicated at the top and bottom of the revived history.
+* Removed the automatic "pimp slap" sound effect.  If you want to use it, add it to your SoundFX tab.
+* Changed where many connections messages are displayed to prevent flooding your active channel with reconnect messages.  Messages that aren't channel-specific should now appear in the Status window rather than the active window.
+* Changed "Capture Server Notices to an Isolated Window" option to GLOBAL rather than network-specific setting.  You will need to recheck this option and press OK if you use it for it to work after updating.
+* Changed the display of "Channel Modes" and "Created On" displays when joining channels on certain networks that send that information twice so that you only see it once.
+* Minor change to when settings are loaded when connecting to a network to help prevent some problems that can occur because settings aren't loaded fast enough.
+* Updated the wording on the active help text for the Invision Logo color in Main Settings > Colors.
+* Updated /say to give an error message if no text is included with the command.
+
+
+March 12, 2008
+
+Invision 3.0 Build (March '08)
+===============================
+
+After consideration, Invision is now at version 3.  From this point forward, all releases will be in the 3.x.x version format, where the first x is for normal releases and the second is only used for bugfix releases.
+As usual, this update is from the Invision site and forums and #Invision on irc.irchighway.net.
+
+Beta Testers : Safemode, DJ_Arnaud67
+
+New Features :
+
+* Added traytips for when Actions (/me) trigger the Nick Alert if both Nick Alert and Tooltips are enabled.
+* Added Clear All Windows option in the right click menu.
+
+Bug Fixes :
+
+* Fixed the bug for Winamp 5+.  This fix works for both the update and the full version.
+* Fixed some typos in the random kick messages, halfops, active help regarding titlebar options, and the right click nick menu.
+* Fixed the CPU display for Dual/Quad core CPUs that displayed "Dual Core" or "Quad Core" twice instead of only once.
+
+Changes :
+
+* Changed the Images that display version numbers from 2.0 to 3.  This only affects full installs.  To use the new images if you update, go the Theme Manager and load the i300 theme.
+* Changed the Op Status display so it displays the totals across all networks.
+* Changed the display of the QUIT message to include the # of people remaining in the channel(s).
+* Changed the /join and /j aliases so that they accept the switches for /join, such as -n for minimized.
+* Changed the random kick/ban message to be bold.
+* Changed the Network Services to be listed as a submenu in the right click menu so they take up less space when enabled.
+* Changed the display of the Hard Drive Usage Bar display to match other progress bar displays in Invision.
+* Changed the default Top 5 sends to track Files instead of Directories.  This change only affects new installs (not updates).
+* Changed the Channel Scan feature that displays "Also in channels" and "using secure connection (SSL)" notices to display the notice no more than once every 5 seconds per nick.  This stops it from showing multiple times if the same person joins multiple channels that you're in all at once.
+* Changed the Hard Drive Usage Bar display to also include the total bytes used.
+* Removed the menu item for Invision Tutorials as the site is down.
+* Added a menu item for viewing the Version History in Invision menu > Invision Help.
+
+
+
+November 1, 2007
+
+Invision 2 Build 3515 November'07 Release Unofficial Update Pack
+===============================================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+Beta Testers : DJ_Arnaud67
+
+New Features :
+
+* Added a non-silent stop for XDCC similar to Fservs.  You can now display a message when stopping your XDCC if you want to.
+* Added an option to the Slow Paste from Clipboard.  You can now choose to paste while keeping the original spacing (great for pasting ASCII Art or scripts), or paste using the orignal method that automatically split long lines of text across multiple lines.
+
+Bug Fixes :
+
+* Fixed a bug preventing Server Notices from appearing when setting Notices to appear in all common channels.
+* Fixed a bug preventing adding multiple users to the User List at the same time -- * /if: '!=$' unknown operator (line 111, ialias2.mrc)
+* Fixed a bug preventing the Fserv to remain paused after reconnecting.
+* Fixed a bug that caused an error when you have someone set to auto-op or auto-voice and they part the channel shortly after joining it.
+* Fixed the kick messages so that colored reasons don't mess up the color of the parentheses.
+* Fixed a typo in the active help for the new tray tips.
+* Fixed a bug that prevented the automatic unbanning of a nick that had a vhost when using the Kick/Ban w/ Ban Time and Msg.
+
+Changes :
+
+* Made some changes to how the OS and other information is displayed to improve how it works and looks for users.
+* Changed how saving works to help prevent issues with settings being saved.
+* Changed the "Failed to Receive" message so that it includes the time.
+* Changed the default path to the WinAmp plugin so it will work for WinAmp 5.  This change only affects *FULL* installs, not updates.
+
+
+September 7, 2007
+
+Invision 2 Build 3515 September'07 Release Unofficial Update Pack
+=================================================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+NOTE: You need to set up your pack categories again with this update due to changes in how they work.  Sorry for the inconvenience.
+
+Beta Testers : DJ_Arnaud67, darkplayer, quade1337
+
+New Features :
+
+* Added tray tips for when people say your nick while you are Away, when someone triggers your Nick Alert, and when someone Pages you.  You can enable or disable these.
+* All XDCC packs will now display as long as they have a filename associated with them even if there are empty packs in the middle.
+* Added a new item to the Invision Help menu that will take you to the forum now that the forum is back up and running.
+* Control codes can now be used when creating the "category" for XDCC items.  This lets you change the category's color, bold, and underline.  Ctrl-O also works.
+* Added the ability to set your XDCC ad to only show the latest XX packs, rather than all packs, in Verbose mode.  All packs will still be able to be downloaded and can still be seen when someone gets your XDCC List.
+* Added Access Levels to the ChanServ section of the right click nick menu.  This lets you set up auto-voice, auto-op, auto-admin, etc. on networks that have ChanServ.  Note that you need to enable Network Services in that network's settings for the ChanServ menu to be shown (Main Settings > Filtering & NickServ).
+* Added an option to choose where Notices sent to you will appear (Main Settings > Additional Settings).
+
+Bug Fixes :
+
+* Made a new button image for use with mIRC 6.3.  It is the default button image for new installs.  For updates, you'll have to select the i2m630btn.bmp file.
+* Fixed a bug causing OS's with special characters to not display properly.
+* Fixed the "View List" menu item in the Log Viewer.
+
+Changes :
+
+* Changed default options for mIRC 6.3.  This only affects new installs.
+* Adjusted some checkboxes that were too close together.
+* Added help text for the tray tip checkboxes.
+* Changed the Force Dalnet Mode option to automatically enable/disable the related options so users don't think other options will work when it's disabled.
+* Changed "Force Dalnet Mode" to "Enable Network Services" so it makes more sense.
+* The "category" box in the XDCC Manager now lets you have longer category names.
+* Changed the tab's title in XDCC Manager from Settings to Categories.
+* Changed how Categories work in XDCC Manager.  Previously, if you removed a category, it could mess up all of your categories.  Now, it will not affect your packs.  If you remove a category that is used in a pack, the pack will continue to use the old category until you change the category in the pack.  You can't use that removed category for any new packs, of course.
+* Changed "Address" in the Display in Channel/Query menu to "IP and DNS" to avoid confusion.
+* Changed the "View List" and "Refresh Log" menu items in the Log Viewer so that they scroll the log to the bottom rather than leaving the scrollbar at the top.
+
+
+August 15, 2007
+
+Invision 2 Build 3515 August'07 Release Unofficial Update Pack
+==============================================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+New Features :
+
+* One new feature added and adjusted (more information to come).
+* !list nick added for fservs (!list needs to be enabled for the fserv for this to work).
+
+Bug Fixes :
+
+* Fixed a bug when trying to use Ghosting without setting a password. -- * $input: cannot use in an event (line 1372, ialias5.mrc)
+* Fixed an old bug in Visufix that caused text to wrap at the wrong place when Visufix was enabled.
+
+Changes :
+
+* Changed Fserv Anti-Idle to be Off by default.
+* Changed DCC Auto-Get to Show Get Dialog by default.
+
+
+JULY 1, 2007
+
+Invision 2 Build 3515 July'07 Release Unofficial Update Pack
+============================================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+New Features :
+
+* Changed the XDCC Server Manager around.  It now allows 999 packs and lets you choose a type and color for each pack if desired.  Example:  You might want all games to have a [GAME] type and to be colored Red.
+* Added more support for a future mIRC feature (more information will be available later).
+* Added a Hard Drive Usage bar display to the Channel and Query right click menus (Display in Channel/Display Private).  It will let you display how much of your hard drives has been used in a small bar graph.
+* Added the ability to set background colors (white or black) as part of script colors.  You can still leave it without a background color, if you choose.  Remember that background colors can look bad, so be conservative using this feature.
+* When Auto Start is enabled for XDCC, it will now start in silent mode if that was the mode it was originally running in.
+* When Pack Listing is enabled in XDCC and someone requests the pack list, a file listing all of the packs will be sent rather than listing them out through /msg.  This will help when there are a lot of packs.
+
+Bug Fixes :
+
+* Fixed * /did: invalid parameters (line 600, idccnmp3.mrc) bug when opening DCC Manager while Isolate DCCs is disabled.
+* Fixed a typo and adjusted some other text in the dialogs.
+* Fixed a bug that caused "Gaining Ops in Channel: #" to appear if you have a channel window open, but you are not in it.
+* Fixed a bug preventing the !list command from working with XDCC servers.
+* Fixed a bug when displaying the XDCC Ad to "All Channels".
+* Fixed DCC > Queue Sends so that it works when right clicking a nick and trying to add additional file sends to your Queue.
+
+Changes :
+
+* Changed CPU/MEM to CPU/RAM in the System Info display.
+* Made it so that the Private Message/Query sound doesn't play if the message is an XDCC Send, XDCC List, XDCC Help, or XDCC Remove command.
+
+
+JUNE 11, 2007
+
+Invision 2 Build 3515 June'07 Release Unofficial Update Pack
+============================================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+New Features :
+
+* Added most of the text tricks to the "Respond to" right click option on a nick.  Previously, you could do a 3D Button Repond to a nick by right clicking on it.  Now, you can do most of the text tricks.  It will only change the nick and not the rest of the text.
+* Added a Reset colors option to the User Lists menu when right clicking a nick.  If you choose Show Who's Who, it will change colors to the User List colors.  Reset colors will change them back to the mode-based colors.
+* Added a volume control to the MP3 Buttons as well as new buttons (thanks BluJ for the new buttons).
+* Added support for a future mIRC feature (more information will be available later).
+* Added the ability to set the default ban mask for all automatic bans other than nick flood bans.  See Main Settings > Additional Settings.
+
+Bug Fixes :
+
+* Fixed a problem that allowed users to access a trigger that is for another channel without being in it if the trigger is /ctcp and the person knows the trigger.
+* Fixed a bug causing the MP3 Buttons to not turn on.
+* Fixed a bug in the fserv explorer that prevented folders/files that looked like this "2000 - 2100" (without quotes) from displaying properly (It was subtracting rather than leaving it as-is).
+* Fixed a bug causing the Pager to not display a message when it is first opened if no background is set in the Theme Manager for the Pager.
+* Fixed an overflow in the Active Help for the Minimum DCC Speed help text.
+* Fixed a couple of grapical and grammatical errors in the dialogs.
+* Fixed it so that no error message appears if you use the Pause button when nothing is playing.
+* Fixed a bug with the /msg history revive option that prevented it from working if you had your logs separated into folders based on network.
+* Fixed a bug preventing the fserv from running silently when connecting.
+* Fixed a bug with the fserv explorer not displaying the directory when connecting to certain versions of SysReset without manually requesting it.
+* Fixed a bug preventing XDCC packs 16-25 from working.
+* Fixed a bug that messed up the "Nick is attempting to send filename to you..." message when the sender has Passive DCC enabled in mIRC's options.  It now says that it's using Passive DCC.
+* Fixed a bug that could prevent /ctcp fservs from working in certain versions of mIRC.
+
+Changes :
+
+* Improved Slow Paste From Clipboard so that it displays everything correctly (no missing {}'s or variables).
+* More improvements to the Capture Text and Notice Ads so that more ads are captured.  Let Riamus know if you find any Fserv ads that are not being captured.
+* Improved the speed of saving settings even more.  Now, there should be no noticeable lag.
+* Improved the Fserv Explorer when accessing TCLFileserver scripts.
+* Changed how timestamps are displayed in the Pager.  Previously, if you didn't have TimeStamps turned on, you'd have a blank time in the Pager, which would look bad.  Now, it will show your chosen timestamp or else a default hh:nntt timestamp in the Pager.
+* Improved the Active help "hotspots" so that they work better.
+* Changed the default Logging setup so that it does not create a folder for each network.  This is for new installs only.  You can change it in mIRC's options if you want.
+* Changed where some error messages appear when dealing with multiple networks.  This change is being tested to see how it looks/works and may be changed back.
+* Changed how the CPU info is obtained for displaying your system information.  If you have nothing in your settings for the CPU, it will now get more accurate CPU information.
+* Changed how the Graphics Card info is obtained for displaying your system information.  If you have nothing in your settings for the Graphics Card, it will now get display information instead of n/a.
+* Changed how the Monitor info is obtained for displaying your system information.  If you have nothing in your settings for the Monitor, it will now get display information instead of n/a.
+* Disabled the Auto Update Check option in Main Settings for now because it doesn't currently do anything.
+
+
+MAY 05, 2007
+
+Invision 2 Build 3515 May'07 Release Unofficial Update Pack
+===========================================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+
+New Features :
+
+* Included new buttons for 6.21 that are on by default in the full bundle (thanks to CraftsMoogle and Yusuke).  If you update, you can change the buttons to i2m621btn.bmp for the updated version
+
+
+Bug Fixes :
+
+* Fixed the OS display in System Info for Vista.
+
+
+Changes :
+
+* Improved saving of settings to make it faster.
+* Improved the Capture Notice and Text Ads options to capture more ads.  If you find any that are still not captured, let us know with a color copy of the ad so we can improve it further.
+* Changed how the Nick colors work so that Invision will not remove your custom colors if you have Nick Colors and Force User List Colors turned off in the settings.
+* Changed the default sound setting in mIRC to ON rather than OFF.
+
+
+APRIL 15, 2007
+
+Invision 2 Build 3515 April'07 Release Unofficial Update Pack
+=============================================================
+
+This is another update pack put together by Riamus and XMog, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+From this point forward, all patches that we put out will not use letters (e.g. A Patch), but will use the month/year so we don't run out of letters.
+
+
+New Features :
+
+* Made it so that when Double Click Nick Responder is turned on, it will automatically focus on the editbox when you double click a nick.
+* You can now enable/disable logging of the DCC_Info window in DCC Manager > Setup.
+* You can now enable/disable logging of the NickAlert window in Main Settings.
+* You can now add nicks to an exceptions list (in the Away Manager) when you use the 'Display Away Message on Nick Use' option when Away.  This is useful for bots when you don't want to respond when they use your nick.
+* You can now add nicks to an exceptions list (in the Away Manager) when you use the 'Nick Alert' option.  This is useful for bots when you don't want to respond when they use your nick.  It's the same list as the Away list because they are unlikely to be different nicks.
+
+
+Bug Fixes :
+
+* Fixed a bug making Invision freeze often when connected to multiple networks because it was saving settings.  It will still freeze when it saves if you're not using it at all, but that shouldn't be too much of a problem.
+* Fixed a bug with queues that was introduced in the C patch when trying to fix another bug.
+* The Channel Scan bug that was fixed in B and missed in C has been fixed again.
+
+
+Changes :
+
+* The default fserv timeout has been set to 120s instead of 40s in mIRC's options.
+* The default Top 5 in the file server is now set to show Files instead of Folders.
+* Set Invision to remove some more variables that were not being removed after they weren't needed any longer.
+* Changed the lag monitor to automatically set the display to the titlebar when turned on (you can still turn that off so it goes to the status window if you want).
+* Changed the Invision Tutorials menu option to link to the new site address.
+
+
+March 05, 2007
+
+Invision 2 Build 3515-C Unofficial Fix Pack
+==========================================================
+
+This is another fix pack put together by XMog and Riamus, with fixes and improvements from the Invision forums and #Invision on irc.irchighway.net.
+
+
+New Features :
+
+* Packaged with the updated server list
+* All OS displays have been improved and will now show correct OS information (including Vista)
+* Timestamp has been added to "X is attempting to send Y" messages
+* The fserv explorer window now has horizontal scrollbars for long filenames
+* The Logviewer has been made to work with the new .1.log logging method found in mIRC 6.21.  It will load ALL .log/.*.log files for the chosen date in order (.log, .1.log, .2.log, etc) if there is more than one log file for that date
+* The Logviewer will also automatically load all files for the current date again when using 6.21 even if all you have is a .1.log file (mIRC's log options must still have logs in the main log folder and not split into network folders for this to work)
+
+
+Bug Fixes :
+
+* $ct error
+* $timers error
+* 7isnum error (timestamp error)
+* Force Fserv Explorer bug (missing returns)
+* File size error in the "X is attempting to send Y to you" message
+* Fixed a bug which prevented rejoin a channel that is open (but not connected to) using either /rejoin or the right click menu
+* Fixed some bugs when viewing SysReset fservs in Fserv Explorer
+* Changed the order of "X is logged in as Y" display when Channel Scan is enabled
+* Fixed incorrect filesize displays on files over 1GB
+* More changes to try and reduce problems with the settings not saving properly
+* Fixed a bug that prevented turning off the "Put trigger in front of files in list" option in the MP3 Fileserver
+* Fixed a right click bug when using mIRC 6.21 (invalid $iif)
+* Fixed a bug preventing playing MP3s from the menu in mIRC 6.21
+* Fixed a problem with XDCC ads not displaying in the correct order
+* Fixed a bug when using Block Channel XDCC Ads (/elseif: invalid format [line 18, iunique.mrc] )
+* Fixed a bug preventing you from adding an autojoin channel from the right click menu if you don't already have at least one added
+* Fixed a bug in the Triggered SoundFX tab of the Sound Manager, where buttons appeared that shouldn't be there
+* Fixed a bug allowing a newly requested file to be sent before the rest of the queues if it was requested right when another send completed
+
+
+Changes :
+
+* The default for !seen tracking is now set to everyone instead of just friends (it is still disabled by default)
+* The F12 hotkey has been disabled because it causes more problems than it helps
+* Shortened all lines mentioning Version information
+* The default for "Dclick nick respond" is now set to Off
+* The default for "Capture Server Notices to Isolated Window" is now set to Off
+* The timestamp on netsplit messages has been moved to the front of the message
+* The default identd username has been removed
+* Changed how a couple variables are unset
+* Invision will no longer force close when there are major errors.  Instead, it will provide an error message
+* Invision now unsets many variables that it didn't before to save space
+* Queues will automatically save as soon as you Stop or Pause your fserv (Stop Now, Stop Now w/ Reason, Pause)
+* When you turn on Lag Monitor, it will automatically activate it in the titlebar.  You can manually disable that so that it appears in the status window if you want to
+* "Hear own sounds" no longer works if SoundFX are disabled (you'll need to go into Sound Manager and apply the settings for it to take effect if you don't have a clean install)
+* The default button bar is not set to None because of an additional button in the newer versions of mIRC
+* Minor GUI changes
+
+
+July 08, 2006
+
+Invision 2 Build 3515-B Unofficial Fix Pack
+==========================================================
+
+This is an all-in-one compilation of various fixes and improvements from the forums and #Invision on irc.irchighway.net.  Most of these were done by Riamus and L|B, with the compilation and additional changes/fixes done by XMog.
+
+New Features :
+
+* Packaged with mIRC 6.17 and updated server list
+* File sizes are now listed in the DCC Manager - Queues
+* "Enable All" / "Disable All" buttons added to the Sound Manager
+
+
+Bug Fixes / Changes :
+
+* "/if: invalid format (line 1073, ialias4.mrc)" error no longer occurs when displaying system info with missing fields
+* "Add" buttons now work with new versions of mIRC (6.15+)
+* Duplicate "Play Media" section in the Popups removed
+* Fserve Explorer better detects the end of DIR listings (fixes when new lines were displayed in the wrong area with certain fserves)
+* Fixed error when opening the DCC Manager when only receiving files (not sending)
+* Total Server Bandwidth fixed
+* "/diagfs: Missing Information" fixed
+* Netsplit Detected now functions correctly when the string "irc." is not part of the split
+* Fserve GET command now works correctly on new mIRC versions (6.15+)
+* Timer length increased for the Fserve auto-start, which will lessen the problem of the ad displaying twice in succession on connect/join
+* Word Watcher script error with actions (/me and /action)
+* Small changes to the Time Stamp Format setting (No more forced brackets, etc)
+* Fserving from a root directory should now work properly
+* Quit message fixed when in stealth mode
+* Invision will now check before playing a sound to make sure the file exists (should lessen /splay errors)
+* "Use Global Settings For All Networks" should be fixed
+* Fixed Dropdowns in Main Settings -> Colors
+* More descriptive "Use /msg $chan" string for word watch
+* Better detection of servers that support half-ops
+* XDCC Ad Blocking possibly fixed
+* Fserve Explorer has better support for more types of fservers, such as: UPP, TCL, and Garnaxbot fservers (With Garnaxbot, user may need to type DIR when first connected)
+* Info windows (such as the Log Viewer and Server Notices now appear at the end of the switchbar
+* Fixed error if 2-line fserve ad was enabled but MOTD was empty (It will now just display the one line, since the second line is only for the MOTD)
+* Added option to use high-resolution timers for displaying the XDCC Ad (may help fix out-of-order pack displaying, but results in significant more CPU usage while the ad is displaying)
+* Long-standing bug fixed where receiving a file with spaces messed up the "receiving" message (X is attempting to send Y on port Z)
+* Possibly other things I forgot
+
+
+
+
+
+April 15, 2004
+
+Invision 2.0 Build 3515-A Pack Fix Update
+===========================================================
+
+The Lists and changes below have been made to build 3515. There was a lot of input from 
+several people on the forum for Invision that helped fix the various bugs, Want to say thanks
+to them and too keep up the support and dedication.
+
+
+New Features:
+
+% Admin Colors 
+* This was one of the major Requests ( Besides fixing the settings issue ) was to have Color support for the Admins (!), Founders(!), and protected OPs (&) you will find this in Invision Main settings Colors
+% Serving to Op, voices, or to regs only feature
+* Yet again another major request to have implemented you will find active help and the options for each trigger by going to Invision > File Server Manager > Triggers Tab.
+% Priority Queues To OP, Voices, Both 
+* Priority queues can now be set by channel mode rather than only through the user list.  You can now give priority queues automcatically to Voices and higher, Half-Ops and higher, or Ops and higher.
+
+
+Bug Fixes / Changes
+
+* Edited the save settings routine to only save settings when you hit apply and ok on a Dialog. Script will no longer save when killed, netsplit, or script shutdown. 
+* Connecting to the same network more then once on the same script will no longer corrupt settings. All though if you chose to connect to same network more then once any setting changed will be save for that network ( So u cant have multiple different settings for same net )
+* Fixed the netsplit Detected Bug
+* Fixed the System Info Bug to work correctly and not give /if errors
+* VisuFix Option Fixed Under main settings
+* Removed the Double MP3 Sections and Query Sections on the script.
+* Run with No Advertisment Bug Fixed will Now stay checked when you reboot your Script
+* On Connecting to a Network Flooding off from to many adds running all at once Fixed by adding timers to the .advertise sections of the script
+* Banning now bans the mask and not the Indent and part of the mask *!*@what.ever.here
+* Nick Tag Format box is no longer limited in size.
+* Top Requested setting for how many records to keep now remains set to what you choose (1-20 records) and does not reset to 5 every time you access the Fserv Manager.
+
+
+
+
+
+November 15th, 2003
+
+Invision 2.0 Build 3515 Update
+===========================================================
+
+The list of changes/fixes. Please note some are not listed here as I ran into numerous
+problems along the way with this release as far as hardware failures, busy life, etc. I've
+done the best I can to document those I can recall those just the same.
+
+* Fixed setting loss bug. More sure then anytime before that this should solve it provided you have servers entered correctly in your server list or the server you are using is properly configured to reflect the correct network name. Servers that where moved from another network and not reconfigured to show the new network they belong to may still cause problems for you. The only thing you can do in that case is to make sure you have that exact server name in your server list and make sure its in the right server group and make sure spelling is correct. But once again, there was a definate bug in the script that has been corrected that would have caused you to loose settings even if you had the misconfigured server in your server list. One last note, you would been directly seeing this bug if you saw the "Encryption Key less then 5 characters, settings to default" notice when you were exiting ot applying setting changes in the Main Settings Dialog when you knew that was previously set before.
+* Anticamp Fixed
+* Run without Advertisement Startup fixed
+* Revised Visufix Routine
+* Nick Tag Respond Bug fixed
+* Auto Re-Away on reconnect bug fixed.
+* Main Settings Dialog services restart bug fixed.
+* +k channel ops setting fixed and rewrote the key save routine on that tab to be less cumbersome.
+* Revised the Trigger grab routine for capturing Fserve Ads from channels. It should now capture a wider range of different ads.
+* Revised code layout for a couple of routines in effort to reduce/eliminate freezing/cpu spikage problems under heavy load conditions.
+* Fixed Half-Ops enabled Networks "ADD" button in Main Settings > Adv Tab. This is used for adding the current network you are on as a network that supports half-ops. This in turn enables options in the menus for related features.
+* Added a HIGHLY EXPERIMENTAL feature that will allow you to save settings all under global regardless of network. I don't recommend using this feature unless you are still loosing settings under this new build. I added this before I was able to find the bug with the settings routine listed above. Also don't jump to using this the very first time you loose your settings (if you do) as it maybe just that server needs to be added correctly to your server list. If you setting loss continues you may want to then give this option a try. You will need to enable it on Main Settings > Adv Tab (Upper right area) and then click OK and immediately shut down Invision. Restart it and then go through and set all settings the way you want them. 
+* Added additional tools for Archiving and Restoring all your settings. You can now backup all your settings into an archive and then restore them at a later time if you which. The file is created under the name you specify in the mIRC directory. The file will have the name you speced along with the extension ".isz". This is a compressed single file with all your settings in it. 
+* Made a few revisions to the Display > System Info Routine. Also Personalization Info should override auto info now.
+* Revised a few server message routines to be less annoying. Things like the cannot join channel when you are banned or whatever that would appear over and over when you had the "Always in Home Channels" options enabled. 
+* Made a new Theme that hosts a new toolbar buttons image for mIRC 6.1x.
+* Implemented a workaround for a new bug in 6.12 that effected the Sound Manager Dialog. As part of this work around the 'SoundFX' addon is once again been made a standard part of the script rather then just an addon.
+* InstaSends should now obey the Max Sends per person amount that has been set. This was added due to some saying under certain circumstances it was being abused.
+* Received /Sound commands should now work provided they are enabled in the mIRC Options as well.
+* SoundFX Triggers should now be immune to color & control codes.
+* Jump on weak side of splits should now work correctly.
+* Fixed Bug that was causing problems in relation to the Welcome File being used under certain conditions. 
+* Fixed a bug in the 'Top Most Requested' routine that most likely effected other related records as well.
+* Fixed a bug with the SoundFX engine that would cause you to double speak in channels/msgs when scheme file was not found. 
+* Rewrote Visufix to work, then mirc 6.1 came out and it broke again. Rewrote it again to work now with 6.1x.
+* Probably quite a few other things I forgot over time due to my RAID crashed.. Sorry.
+
+
+cRYOa
+
+
+January 22nd, 2003
+
+Invision 2.0 Build 2520 Update
+===========================================================
+
+* Hopefully fixed bug with double playing of mp3's under certain conditions.
+* Fixed AMIP compatibility with AMIP for Winamp Pre 3.0 versions.
+* Fixed "unknown host -cl" bug when running in Reverse DCC Init mode.
+* Fixed other various bugs.
+
+
+cRYOa
+
+
+December 19th, 2002
+
+Invision 2.0 Build 2418 Update
+===========================================================
+
+* Added AMIP plugin support for use with Winamp including version 3.xx
+* mp3 bugs fixed.
+* Added Auto Voice for XDCC and mp3 Server Ads in the Channel Ops Section
+* Extended mp3 Info is now optionally forwarded to the Active window.
+* Added Active Help to File Server Manager Dialog.
+* Spam Filter now filters and reacts to personal notices sent to you.
+* Added button to Clear XDCC Server Stats easily.
+* Invision should now work no matter where you install it to including paths with spaces.
+* Fixed various bugs with the Theme Manager.
+* Consolidated the Nickserv and Filter Tabs in Main Settings.
+* Server Notices should now route to how you have it set in mIRC Options > iRC Section. You can also 
+  enable capturing of these to an isolated window. This option is found on the NickServ & Filtering 
+  Tab of Main settings.
+* Added AutoGhost option for use with networks that support it. Find it in Main Settings > 
+  Nickserv & Filtering Tab > Lower right section.
+* Fixed a bug with the FreeSlot Announcer Routine (thanks Dewi!). 
+* Added "Part Channels for Nick Regain" option for use on networks that wont let you change your nick if 
+  you are in a channel that you are banned in or the channel is moderated (+m). When enabled this should 
+  cause you to part just those channels that are preventing you from regaining your nick back. Once you 
+  have your nick back it should auto rejoin them. You can find the option in Main Settings > General Tab > 
+  about the middle area (where Spam Filter used to be).
+* Revised the AutoUpdate (patch) feature to be reactivated. 
+* Added Feature that allows you to prohibit color/control codes from being sent to a specified channel. 
+  This will prevent you (or more accurately the script) from using color and control codes in specified 
+  channels (except if you specifically type it in the editbox to be said there). This applies to     
+  server ads, display in channel options, away messages, etc. This should help you from getting kicked 
+  out of those channels that don't allow such things.
+* Fixed bug that would cause "Error 412:No Text to send" errors when Ad sizes where at a ceratin size.
+* Numerous other functional and cosmetic fixes where applied that I unfortunately can't find my notes on :(
+
+
+cRYOa
+
+
+
+September 4th, 2002
+
+Invision 2.0 Build 2104 Update
+===========================================================
+
+This is an update to 2020 to fix another security hole with the '/msg revive history' feature. Although at first it seemed to be fixed it was brought to my attention that there was a way to still manipulate it under the right conditions. Thanks Merak for bringing this to my attention. :)
+
+cRYOa
+
+
+August 25th, 2002
+
+Invision 2.0 Build 2020 Updates Lists
+===========================================================
+
+Here is a list of changes and fixes made in this latest build 2020
+
+* New Installer with a new Installation method. You now are required to install a compatible mIRC version before installing Invision as it no longer includes it. This was done for various reasons. You can use either 6.01, 6.02, or 6.03 with this new build (Version 6.03 recommended) but note that using 6.02 you will still have the bugs with the fserve ad capturing windows since this was a bug with 6.02 mIRC and not Invision. 
+* Fserve Ad Catpturing windows will work correctly if you use mIRC 6.01 or 6.03.
+* Fixed a securtity hole with the '/msg history revive' feature located in Main Settings > General Tab > Lower Section. 
+* Added the option to allow users to Enable/Disable The IAL updating when you join a channel. Other alterations where made throughout to accomdate this feature as well. The option can be found in Main Settings > Adv Tab along the left side under the time stamp format. By default this option will be unchecked (disabled) as it seems quite a few people had problems joining large channels on some servers without getting disconnected repeatedly.
+* Fixed bugs with the Active Help for Main Settings Dialog.
+* Made changes to various dialogs to correct cosmetic defects in XP.
+* Other stuff I can't remember now. :)
+
+Just to add here, I am working on another release and was in the middle of it when the security hole bug was discovered so I took 1816 and applied what updates I could at this time. Expect more in the near future releases. Also thanks to tafaz for being the first to tell me about the hole. 
+
+
+cRYOa
+
+
+June 16th, 2002
+
+Invision 2.0 Build 1816 Updates Lists
+===========================================================
+
+Here is a list of changes and fixes made in this latest build 1816 
+
+* Hopefully Fixed the Settings loss bug.
+* Added a new XDCC Ad Filter to the Filters Tab in Main Settings
+* Added Private Message History restore option located in Main Settings > General Tab. What this does is if you get a private message and you say you chat a bit in it, then close it, the next time the person msg you again (provided its on that same day) it will restore the last so many lines of the conversation upon opening the window. 
+* Changed Default Away Channels mode from "Exclude" to "Include". However if you are importing you may import the exclude setting again and need to go change it back in away manager. This is the reason some people claimed they were not sending out their away message to the channel when they went /away.
+* Added "Data in Bold" option to Main Settings > General Tab. This when enabled makes data in ads appear in bold.
+* Fixed a bug with Auto Decrypter. 
+* Fixed bug with the IP auto fixer.
+* Repeat Flood Detection in the Channel Ops Section should work correctly now.
+* Added Hostmask Channel Scan option to the IRC Scanners section in the channel popup menu.
+
+cRYOa
+
+June 4th., 2002
+
+Invision 2.0 Build 1804 Updates Lists
+===========================================================
+
+Just a quick update to 1802 to fix the /writeini bug in the importer. :( sorry bout that. 
+
+cRYOa
+
+June 2nd, 2002
+
+Invision 2.0 Build 1802 Updates Lists
+===========================================================
+
+Here is a list of changes and fixes made in this latest build 1802 
+
+* Fixed bug with Global Settings so they shouldn't get erased anymore.
+* Fixed bug with Recent Channels doubling up channels
+* Changed back !list command routine to respond to channel command even when in ctcp trigger only mode (like it was before 1626). 
+* Added optional XDCC Ad Filter to filter out xdcc ads.
+* Fixed bug causing Channel Ops Channel List getting erased.
+* Added routine to detect and attempt to fix misconfigured ip info.
+* Fixed bug with Op all Fellow Ops Routine.
+* Made changes to the import routine in regards to Channel Folder importing. Hopefully this will fix the bug causing failing imports.
+
+cRYOa
+
+
+April 27th, 2002
+
+Invision 2.0 Build 1626 Updates Lists
+===========================================================
+
+Here is a list of changes and fixes made in this latest build 1626 
+
+* Optimized MultiNetworking and script performance in general
+* Changed code to stop welcome files not showing
+* Fixed bug with Manual Queing files with a comma in the filename(s)
+* Fixed a bug where those shitlisted could still access Fserve though ctcp mode
+* Added Selector to the Colors Tab for regular users. This will color the nicks of regular users in the nicklist and in channels.
+* Added No Advertisement Option to the File Server Manager Setup Tab. This will insure no ad is displayed.
+
+cRYOa
+
+
+March 31st, 2002
+
+Invision 2.0 Build 1531 Updates Lists
+===========================================================
+
+Here is a list of changes and fixes made in this latest build 1531.
+
+* Fixed Bug with the Away System and All Channels Selection
+* Fixed Bug with Queues not restoring when you start back up.
+* Changed and Default Network ID method and locked it to that.. so the toggle isn't effectively working now. Its Locked in mode (method) 2. This should be better and eliminate a lot of those problems people have been having with settings not appearing when they connect to certain servers etc.
+* Made a change to the XDCC Ad again.
+* Fixed a bug with the Queue Send Routine causing stalls
+* Other small bug fixes I can't remember at the moment.
+
+cRYOa
+
+
+
+March 15th, 2002
+
+Invision 2.0 Build 1515 Updates Lists
+===========================================================
+
+Well.. here we go again. This Release contains quite a few changes and bug fixes. I kinda had hoped 1420 would have been more bug then it was but I guess I shouldn't complain considering how big of a change it was. 
+
+Here is a lists of changes and fixes made in this latest patch to build 1515.
+
+* Fixed NickServ Type recognition lagging behind and not being ready when it got the request for Identify at connect.
+* Fixed Bug with XDCC Packs Displaying out of order (2,1,3,4,5,...). It should work correctly unless you make the line delay lower then 100 which you shouldnt need to do anyway.
+* Top x Downloads is now Global and therefor applies to all networks you are on.
+* Changed Decryption Key Default from "Default" to "crazycrypt" which is what it comes with and most commonly used when you get it.
+* Completely changed DCCallow. Pretty much wiped most of the code out for it and started over. This was due to a misunderstanding on my part. Sorry.
+* Fixed a bug where the "Adveritse what Im listening too" channel toggle was stinking on.
+* Made revisions to the XDCC Server as far as Ad Format. Added the msg and ctcp commands REMOVE, SENDS, and QUEUES for it too. Also added these command to the popup menus too.
+* The Away tab from the Main Settings is now in a new Away Manager where you will also find the Custom Away Messages Tab from Personal Customization.
+* Personal Customization has been renamed to Personaliaztion and contains the Personal Info Tab from the Main Settings Dialog.
+* Old Flood Protection system is gone. New system involves two seperate engines. One for User Protection Floods (as in from a single person) and the other is for mass floods (as in from multiple people). Between the both of them it should give you better protection all around with less cpu overhead as well as much better comtrol over it as well. I recommend you set the time span as low as possible for best accuaracy (1). These settings can be found for both on the new Protection tab (formerly the Security Tab) in main settings.
+* Added new Tab to the Main Settings called "Filtering". This is now the home for the Filter Blocks formerly found at the top of the old Security Tab. I plan to add more to this later as well as move other filter options from the General Tab there. 
+* Max Queues and Max Sends Settings can now be set to zero (0). This is for those that want to use the Fserve as a look server. 
+* Added New Option to the File Server Manager called "Anti GET Script Mode". This is an option that will cause the Fserve to run in a way that will make it hard for people running Automated Fserve Download scripts to use the server. I want to say just for the Record that I'm not necessarily against people using scripts like this but I think the operators should have the right to try and stop this if they want to. This was added due to a lot of requests for it.
+* Added some code for those that have problems with Root Directorys that don't appear with a "\" at the end not opening correctly. Even though I never have had this problem a few people did. 
+* Fixed Bug with InstaSend Edit Box cutting off larger size numbers. Other corrections like this were made to other boxes too throughout.
+* Fixed * /if: invalid format (line 196, itext.mrc) bug
+* Fixed * /aline: invalid window (line 946, ialias3.mrc bug as well as other problems with the Capture Ad Routines.
+* Added Mass CTCP option when you have multiple nicks selected in the NickList. This can be used to say XDCC LIST all the +v people in a channel if you selected them all. Warning: Too many at one time you might get booted off the server depending on the network you are on.
+* Fixed Bug with the Learn Keys Option for Channel Ops Options causing Key Set wars.
+* Fixed Bugs with the /ctcp Remote control for Channel Ops settings. Also updated the nicklist popup menu to reflect the change from Ban Domains to Repeat Flood feature.
+* Fixed bugs with the Auto responders for +v-v+o-o generating $iif format errors.
+* Fixed Bug where adding people to the user list would cause them to be deopped/devoiced in certain channels even if they were fellow ops.
+* Those added to the DCC Ban List no longer get AutoDeop and AutoDevoice set on by default.
+* Users are sent a notice saying there file has been Automatically Requeued when it has been.
+* Queues now should save properly once again between shutdowns unless you "Stop" the server (like 1308 did).
+* Slow IP Scan is back BUT,... you shouldn't need to use it. Try Fast Scan first as it was rewritten as well and should find anything Slow Scan will but alot faster. 
+* Fixed bug that might have been causing some people to be unable to resume dcc sends.
+* Optimized The Serv Routines to Speed up overall performance.
+* Moved Automatic Requeue Settings to the DCC Manager Setup Tab where it should be.
+* Fixed Bugs in the Away System itself.
+* Fixed "channels in common with:" reports from showing up solo.
+* Added an Invision About Dialog to the Invision Menu off the Menubar.
+* SoundFX is now "Sound Manager" and incorporates both SoundFX Settings as well as Event Settings formerly found in Main Settings. 
+* Fixed bug with Fserve scheduler timers not working.. they should work now.
+* Repeat Flood Protection in Channel Ops also watches for ctcp floods as well. 
+* Fixed Bug with mp3list Build Routine.
+* Fixed Bug with File Server Index Build Routine
+* Fixed Issue with multiple Ad Timers Being started.
+* XDCC Descriptions can use incorporate Color/Underline/Bold/Reverse Codes.
+
+I'm sure I forgot stuff.. I'm always on the go and in a rush so sometimes I fix things on the fly and forget to note it. 
+
+cRYOa
+

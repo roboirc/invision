@@ -1,0 +1,51 @@
+ --------------------------
+ Basic UNIX/Linux commands:
+ --------------------------
+
+ ls     = List the contents of the current directory
+ ls -A  = List all files in the current directory, including hidden
+ ls -l  = List files in the current directory with their permissions
+ rm     = Delete a file
+ rmdir  = Delete a directory
+ mkdir  = Make a directory
+ cp     = Copies a file eg. cp /etc/passwd $HOME
+ cd     = Changes directory
+ cd -R  = Copy a directory eg. cd -R /etc $HOME
+ mv     = Moves or renames a file
+ startx = Starts up the X windowing system
+ telnet = Telnet to another computer eg. telnet host.com
+ ftp    = File Transfer Protocol, send and receive files
+ pine   = A mail program to send and receive e-mail
+ mail   = Another mail program
+ elm    = Another mail program
+ su     = Assume identity of a user
+ rlogin = Remote login, login remotely to other computer
+ finger = Get info about other users on your network
+ talk   = Talk to other user, eg. talk@root.host.com
+ write  = Send a message to another user
+ cal    = Calendar
+ irc    = Loads UNIX IRC program
+ env    = See the status of your account
+ ps     = See the command processes
+ kill   = Kill command processess eg. kill -9 -1
+ touch  = Makes an empty file
+ chmod  = Change a file permission
+ chgrp  = Changes group owner
+ sh     = Switch to sh
+ bash   = Switch to bash
+ csh    = Switch to csh
+ tcsh   = Switch to tcsh
+ mount  = Mount a file system, eg. mount /dev/cdrom /mnt
+ pico   = Text editor for beginners (not on all systems)
+ ed     = Another text editor for beginners (not on all systems)
+ vi     = Text editor for advanced users (not on all systems)
+ emacs  = Another text editor for advanced users (not on all systems)
+
+ ----------------------------
+ UNIX/Linux file permissions:
+ ----------------------------
+
+ d = Directory
+ r = Readable
+ w = Writable
+ x = Executable

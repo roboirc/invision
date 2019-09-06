@@ -1,0 +1,3 @@
+/mode KaLiMa +x
+/msg NickServ IDENTIFY Omshiva1
+/msg HostServ ON

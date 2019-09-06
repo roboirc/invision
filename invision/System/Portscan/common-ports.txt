@@ -1,0 +1,478 @@
+1 (UDP) - Sockets des Troie 
+2 Death 
+9      discard
+11     systat
+13     daytime
+15     netstat
+17     qotd
+18     msp
+19     chargen 
+20 Senna Spy FTP server 
+21 Normally an FTP but could be Back Construction - Blade Runner - Cattivik FTP Server - CC Invader - Dark FTP - Doly Trojan - Fore - Invisible FTP - Juggernaut 42 - Larva - MotIv FTP - Net Administrator - Ramen - Senna Spy FTP server - The Flu - Traitor 21 - WebEx - WinCrash 
+22 Normally Secure Shell but could be Shaft 
+23 Normally Telnet but could be Fire HacKer - Tiny Telnet Server - TTS - Truva Atl 
+25 Normally a SMTP (mail) but could be Ajan - Antigen - Barok - Email Password Sender - EPS - EPS II - Gip - Gris - Happy99 - Hpteam mail - Hybris - I love you - Kuang2 - Magic Horse - MBT (Mail Bombing Trojan) - Moscow Email trojan - Naebi - NewApt worm - ProMail trojan - Shtirlitz - Stealth - Tapiras - Terminator - WinPC - WinSpy 
+30 Agent 40421 
+31 Agent 31 - Hackers Paradise - Masters Paradise 
+37 time 
+41 Deep Throat - Foreplay
+42     nameserver
+43     whois 
+48 DRAT 
+50 DRAT 
+58 DMSetup 
+59 mIRC's DCC Server default port. 
+68     bootpc
+70     gopher
+77     rje 
+79 Normally Finger but could be CDK - Firehotcker 
+80 711 trojan (Seven Eleven) - AckCmd - Back End - Back Orifice 2000 Plug-Ins - Cafeini - CGI Backdoor - Executor - God Message - God Message Creator - Hooker - IISworm - MTX - NCX - Reverse WWW Tunnel Backdoor - RingZero - Seeker - WAN Remote - Web Server CT - WebDownloader 
+81 RemoConChubo
+87     link
+88     kerberos
+95     supdup 
+99 Hidden Port - NCX
+101    hostnames
+102    iso-tsap
+105    snet-ns
+107    rtelnet
+109    pop2 
+110 Normally POP3 (mail) but could be ProMail trojan 
+111    sunrpc 
+113 Normally Identd but could be Invisible Identd Deamon - Kazimas 
+115    sftp
+117    uucp-path 
+119 Happy99 
+121 Attack Bot - God Message - JammerKillah 
+123 Net Controller 
+133 Farnaz 
+135 Normally MS Netbios but could be Chode 
+137 Normally MS Netbios-NS but could be (UDP) - Msinit 
+138 Normally MS Netbios-DGM but could be Chode 
+139 Normally MS Netbios-SSN but could be Chode - God Message worm - Msinit - Netlog - Network - Qaz 
+142 NetTaxi 
+143          IMAP2 
+146 - (UDP) - Infector 
+163    cmip-man
+164    cmip-agent 
+170 A-trojan
+177    xdmcp
+178    nextstep
+179    bgp
+191    prospero
+194    irc
+199    smux
+201    at-rtmp
+202    at-nbp
+204    at-echo
+206    at-zis
+210    z3950
+213    ipx
+220    imap3 
+334 Backage 
+372    ulistserv 
+411 Backage 
+420 Breach - Incognito 
+421 TCP Wrappers trojan 
+455 Fatal Connections 
+456 Hackers Paradise 
+512    exec 
+513 Grlogin 
+514 RPC Backdoor 
+515    printer
+526    tempo
+530    courier 
+531 Net666 - Rasmin 
+531    conference
+532    netnews
+540    uucp 
+555 711 trojan (Seven Eleven) - Ini-Killer - Net Administrator - Phase Zero - Phase-0 - Stealth Spy 
+556    remotefs
+543    klogin
+544    kshell 
+605 Secret Service 
+666 Attack FTP - Back Construction - BLA trojan - Cain & Abel - NokNok - Satans Back Door - SBD - ServU - Shadow Phyre - th3r1pp3rz (= Therippers) 
+667 SniperNet 
+669 DP trojan 
+692 GayOL 
+749    kerberos-adm
+765    webster 
+777 AimSpy - Undetected 
+808 WinHole 
+871    supfilesrv 
+911 Dark Shadow 
+999 Deep Throat - Foreplay - WinSatan 
+1000 Der Späher / Der Spaeher - Direct Connection 
+1001 Der Späher / Der Spaeher - Le Guardien - Silencer - WebEx 
+1010 Doly Trojan 
+1011 Doly Trojan 
+1012 Doly Trojan 
+1015 Doly Trojan 
+1016 Doly Trojan 
+1020 Vampire 
+1024 Jade - Latinus - NetSpy 
+1025 Remote Storm 
+1127   supfiledbg 
+1035 Multidropper 
+1042 BLA trojan 
+1045 Rasmin 
+1049 /sbin/initd 
+1050 MiniCommand 
+1053 The Thief 
+1054 AckCmd 
+1080 WinHole 
+1081 WinHole 1082 WinHole 
+1083 WinHole 
+1090 Xtreme 
+1095 Remote Administration Tool - RAT 
+1097 Remote Administration Tool - RAT 
+1098 Remote Administration Tool - RAT 
+1099 Blood Fest Evolution - Remote Administration Tool - RAT 
+1150 Orion 
+1151 Orion 
+1170 Psyber Stream Server - PSS - Streaming Audio Server - Voice 
+1200 (UDP) - NoBackO 
+1201 (UDP) - NoBackO 
+1207 SoftWAR 
+1208 Infector 
+1212 Kaos 
+1234 SubSeven Java client - Ultors Trojan 
+1243 BackDoor-G - SubSeven - SubSeven Apocalypse - Tiles 
+1245 VooDoo Doll 
+1255 Scarab 
+1256 Project nEXT 
+1269 Matrix 
+1272 The Matrix 
+1313 NETrojan 
+1338 Millenium Worm 
+1349 Bo dll 
+1394 GoFriller - Backdoor G-1 
+1441 Remote Storm 
+1492 FTP99CMP 
+1524 Trinoo or ingreslock 
+1525   prospero-np 
+1568 Remote Hack 
+1600 Direct Connection - Shivka-Burka 
+1703 Exploiter 
+1777 Scarab 
+1807 SpySender 
+1966 Fake FTP 
+1967 WM FTP Server 
+1969 OpC BO 
+1981 Bowl - Shockrave 
+1999 Back Door - SubSeven - TransScout 
+2000 Der Späher / Der Spaeher - Insane Network - Last 2000 - Remote Explorer 2000 - Senna Spy Trojan Generator 
+2001 Der Späher / Der Spaeher - Trojan Cow 
+2023 Ripper Pro 
+2080 WinHole 
+2115 Bugs 
+2130 (UDP) - Mini Backlash 
+2140 The Invasor 
+2140 (UDP) - Deep Throat - Foreplay 
+2155 Illusion Mailer 
+2255 Nirvana 
+2283 Hvl RAT 
+2300 Xplorer 
+2311 Studio 54 
+2330 Contact 
+2331 Contact 
+2332 Contact 
+2333 Contact 
+2334 Contact 
+2335 Contact 
+2336 Contact 
+2337 Contact 
+2338 Contact 
+2339 Contact - Voice Spy 
+2339 (UDP) - Voice Spy 
+2345 Doly Trojan 
+2565 Striker trojan 
+2583 WinCrash 
+2600 Digital RootBeer 
+2716 The Prayer 
+2773 SubSeven - SubSeven 2.1 Gold 
+2774 SubSeven - SubSeven 2.1 Gold 
+2801 Phineas Phucker 
+2989 (UDP) - Remote Administration Tool - RAT 
+3000 Remote Shut 
+3024 WinCrash 
+3031 Microspy 
+3128 Reverse WWW Tunnel Backdoor - RingZero 
+3129 Masters Paradise 
+3150 The Invasor 
+3150 (UDP) - Deep Throat - Foreplay - Mini Backlash 
+3333   eggdrop (default)
+3456 Terror trojan 
+3459 Eclipse 2000 - Sanctuary 
+3700 Portal of Doom 
+3777 PsychWard 
+3791 Total Solar Eclypse 
+3801 Total Solar Eclypse 
+4000 SkyDance 
+4092 WinCrash 
+4242 Virtual Hacking Machine - VHM 
+4321 BoBo 
+4444 Prosiak - Swift Remote 
+4567 File Nail 
+4590 ICQ Trojan 
+4950 ICQ Trogen (Lm) 
+5000 Used by Windows UPnP usually found in XP and ME turned on by default but can also be seen on in Win2k. Also used by trojans (Blazer5 - Bubbel - ICKiller - Ra1d - Sockets des Troie) 
+5001 Back Door Setup - Sockets des Troie 
+5002 cd00r - Shaft 
+5010 Solo 
+5011 One of the Last Trojans - OOTLT - One of the Last Trojans - OOTLT - modified 
+5025 WM Remote KeyLogger 
+5031 Net Metropolitan 
+5032 Net Metropolitan 
+5321 Firehotcker 
+5333 Backage - NetDemon 
+5343 wCrat - WC Remote Administration Tool 
+5400 Back Construction - Blade Runner 
+5401 Back Construction - Blade Runner 
+5402 Back Construction - Blade Runner 
+5512 Illusion Mailer 
+5534 The Flu 
+5550 Xtcp 
+5555 ServeMe 
+5556 BO Facil 
+5557 BO Facil 
+5569 Robo-Hack 
+5637 PC Crasher 
+5638 PC Crasher 
+5742 WinCrash 
+5760 Portmap Remote Root Linux Exploit 
+5880 Y3K RAT 
+5882 Y3K RAT 
+5882 (UDP) - Y3K RAT 
+5888 Y3K RAT 
+5888 (UDP) - Y3K RAT 
+5889 Y3K RAT 
+6000 The Thing 
+6006 Bad Blood 
+6060 Invision 2.0 Default DCC Server Port
+6272 Secret Service 
+6400 The Thing 
+6661 TEMan - Weia-Meia 
+6666 Normally iRC but could be Dark Connection Inside - NetBus worm 
+6667 Normally iRC but could be Dark FTP - ScheduleAgent - SubSeven - Subseven 2.1.4 DefCon 8 - Trinity - WinSatan 
+6669 Normally iRC but could be Host Control - Vampire 
+6670 BackWeb Server - Deep Throat - Foreplay - WinNuke eXtreame 
+6711 BackDoor-G - SubSeven - VP Killer 
+6712 Funny trojan - SubSeven 
+6713 SubSeven 
+6723 Mstream 
+6771 Deep Throat - Foreplay 
+6776 2000 Cracks - BackDoor-G - SubSeven - VP Killer 
+6838 (UDP) - Mstream 
+6883 Delta Source DarkStar (??) 
+6912 Shit Heep 
+6939 Indoctrination 
+6969 GateCrasher - IRC 3 - Net Controller - Priority 
+6970 GateCrasher 
+7000 Normally iRC but could be Exploit Translation Server - Kazimas - Remote Grab - SubSeven - SubSeven 2.1 Gold 
+7001 Freak88 - Freak2k 
+7215 SubSeven - SubSeven 2.1 Gold 
+7300 NetMonitor 
+7301 NetMonitor 
+7306 NetMonitor 
+7307 NetMonitor 
+7308 NetMonitor 
+7325   IRC server-to-server 
+7424 Host Control 
+7424 (UDP) - Host Control 
+7597 Qaz 
+7626 Glacier 
+7777 God Message - Tini 
+7789 Back Door Setup - ICKiller 
+7891 The ReVeNgEr 
+7983 Mstream 
+8080 Brown Orifice - RemoConChubo - Reverse WWW Tunnel Backdoor - RingZero 
+8787 Back Orifice 2000 
+8988 BacHack 
+8989 Rcon - Recon - Xcon 
+9000 Netministrator 
+9325 (UDP) - Mstream 
+9400 InCommand 
+9872 Portal of Doom 
+9873 Portal of Doom 
+9874 Portal of Doom 
+9875 Portal of Doom 
+9876 Cyber Attacker - Rux 
+9878 TransScout 
+9989 Ini-Killer 
+9999 The Prayer 
+10000 OpwinTRojan 
+10005 OpwinTRojan 
+10067 (UDP) - Portal of Doom 
+10085 Syphillis 
+10086 Syphillis 
+10100 Control Total - Gift trojan 
+10101 BrainSpy - Silencer 
+10167 (UDP) - Portal of Doom 
+10520 Acid Shivers 
+10528 Host Control 
+10607 Coma 
+10666 (UDP) - Ambush 
+11000 Senna Spy Trojan Generator 
+11050 Host Control 
+11051 Host Control 
+11223 Progenic trojan - Secret Agent 
+12076 Gjamer 
+12223 Hack´99 KeyLogger 
+12345 Ashley - cron / crontab - Fat Bitch trojan - GabanBus - icmp_client.c - icmp_pipe.c - Mypic - NetBus - NetBus Toy - NetBus worm - Pie Bill Gates - Whack Job - X-bill 
+12346 Fat Bitch trojan - GabanBus - NetBus - X-bill 
+12349 BioNet 
+12361 Whack-a-mole 
+12362 Whack-a-mole 
+12363 Whack-a-mole 
+12623 (UDP) - DUN Control 
+12624 ButtMan 
+12631 Whack Job 
+12754 Mstream 
+13000 Senna Spy Trojan Generator - Senna Spy Trojan Generator 
+13010 Hacker Brasil - HBR 
+13013 PsychWard 
+13014 PsychWard 
+13223 Hack´99 KeyLogger 
+13473 Chupacabra 
+14500 PC Invader 
+14501 PC Invader 
+14502 PC Invader 
+14503 PC Invader 
+15000 NetDemon 
+15092 Host Control 
+15104 Mstream 
+15382 SubZero 
+15858 CDK 
+16484 Mosucker 
+16660 Stacheldraht 
+16772 ICQ Revenge 
+16959 SubSeven - Subseven 2.1.4 DefCon 8 
+16969 Priority 
+17166 Mosaic 
+17300 Kuang2 the virus 
+17449 Kid Terror 
+17499 CrazzyNet 
+17500 CrazzyNet 
+17569 Infector 
+17593 Audiodoor 
+17777 Nephron 
+18753 (UDP) - Shaft 
+19864 ICQ Revenge 
+20000 Millenium 
+20001 Millenium - Millenium (Lm) 
+20002 AcidkoR 
+20005 Mosucker 
+20023 VP Killer 
+20034 NetBus 2.0 Pro - NetBus 2.0 Pro Hidden - NetRex - Whack Job 
+20203 Chupacabra 
+20331 BLA trojan 
+20432 Shaft 
+20433 (UDP) - Shaft 
+21544 GirlFriend - Kid Terror 
+21554 Exploiter - Kid Terror - Schwindler - Winsp00fer 
+22222 Donald Dick - Prosiak - Ruler - RUX The TIc.K 
+23005 NetTrash 
+23006 NetTrash 
+23023 Logged 
+23032 Amanda 
+23432 Asylum 
+23456 Evil FTP - Ugly FTP - Whack Job 
+23476 Donald Dick 
+23476 (UDP) - Donald Dick 
+23477 Donald Dick 
+23777 InetSpy 
+24000 Infector 
+25685 Moonpie 
+25686 Moonpie 
+25982 Moonpie 
+26274 (UDP) - Delta Source 
+26681 Voice Spy 
+27374 Bad Blood - Ramen - Seeker - SubSeven - SubSeven 2.1 Gold - Subseven 2.1.4 DefCon 8 - SubSeven Muie - Ttfloader 
+27444 (UDP) - Trinoo 
+27573 SubSeven 
+27665 Trinoo 
+28678 Exploiter 
+29104 NetTrojan 
+29369 ovasOn 
+29891 The Unexplained 
+30000 Infector 
+30001 ErrOr32 
+30003 Lamers Death 
+30029 AOL trojan 
+30100 NetSphere 
+30101 NetSphere 
+30102 NetSphere 
+30103 NetSphere 
+30103 (UDP) - NetSphere 
+30133 NetSphere 
+30303 Sockets des Troie 
+30947 Intruse 
+30999 Kuang2 
+31335 Trinoo 
+31336 Bo Whack - Butt Funnel 
+31337 Back Fire - Back Orifice 1.20 patches - Back Orifice (Lm) - Back Orifice russian - Baron Night - Beeone - BO client - BO Facil - BO spy - BO2 - cron / crontab - Freak88 - Freak2k - icmp_pipe.c - Sockdmini - (UDP) - Back Orifice - Deep BO 
+31338 Back Orifice - Butt Funnel - NetSpy (DK) - (UDP) - Deep BO
+31339 NetSpy (DK) 
+31666 BOWhack 
+31785 Hack´a´Tack 
+31787 Hack´a´Tack 
+31788 Hack´a´Tack 
+31789 (UDP) - Hack´a´Tack 
+31790 Hack´a´Tack 
+31791 (UDP) - Hack´a´Tack 
+31792 Hack´a´Tack 
+32001 Donald Dick 
+32100 Peanut Brittle - Project nEXT 
+32418 Acid Battery 
+33270 Trinity 
+33333 Blakharaz - Prosiak 
+33577 Son of PsychWard 
+33777 Son of PsychWard 
+33911 Spirit 2000 - Spirit 2001 
+34324 Big Gluck - TN 
+34444 Donald Dick 
+34555 (UDP) - Trinoo (for Windows) 
+37237 Mantis 
+37651 Yet Another Trojan - YAT 
+40412 The Spy 
+40421 Agent 40421 - Masters Paradise 
+40422 Masters Paradise 
+40423 Masters Paradise 
+40425 Masters Paradise 
+40426 Masters Paradise 
+41337 Storm 
+41666 Remote Boot Tool - RBT - Remote Boot Tool - RBT 
+44444 Prosiak 
+44575 Exploiter 
+47262 (UDP) - Delta Source 
+49301 OnLine KeyLogger 
+50130 Enterprise 
+50505 Sockets des Troie 
+50766 Fore - Schwindler 
+51966 Cafeini 
+52317 Acid Battery 2000 
+53001 Remote Windows Shutdown - RWS 
+54283 SubSeven - SubSeven 2.1 Gold 
+54320 Back Orifice 2000 
+54321 Back Orifice 2000 - School Bus 
+55165 File Manager trojan - File Manager trojan - WM Trojan Generator 
+55166 WM Trojan Generator 
+57341 NetRaider 
+58339 Butt Funnel 
+60000 Deep Throat - Foreplay - Sockets des Troie 
+60001 Trinity 
+60068 Xzip 6000068 
+60411 Connection 
+61348 Bunker-Hill 
+61466 TeleCommando 
+61603 Bunker-Hill 
+63485 Bunker-Hill 
+64101 Taskman 
+65000 Devil - Sockets des Troie - Stacheldraht 
+65390 Eclypse 
+65421 Jade 
+65432 The Traitor (= th3tr41t0r) 
+65432 (UDP) - The Traitor (= th3tr41t0r) 
+65534 /sbin/initd 
+65535 RC1 trojan 

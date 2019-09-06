@@ -1,0 +1,20 @@
+Line.Delay
+800
+Auto.Start
+Off
+Max.Sends.Each
+1
+motd
+$rainbow(Invision $r.static(Script,Version) $r.static(Script,Build))
+Max.Sends.Total
+2
+Ad.Delay
+30
+Max.Queues.Total
+5
+Pack.List
+30
+Channels
+All
+Max.Queues.Each
+2
